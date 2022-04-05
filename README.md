@@ -10,7 +10,7 @@ The data was collected by Fang Jin. Please see:
 
 ## How to run
 
-Fork/clone the repository, then simply run R scripts `plots.R` and `stats.R` to reproduce plots and statistical analysis; `simulation.R` and `simulation_pmi_n.R` to run the simulations. 
+Download the repository, then simply run R scripts `plots.R` and `stats.R` to reproduce plots and statistical analysis; `simulation.R` and `simulation_pmi_n.R` to run the simulations. 
 
 ### data
 
