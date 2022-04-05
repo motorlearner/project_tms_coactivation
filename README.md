@@ -4,13 +4,9 @@ This repository contains all the data and code underlying my research master pro
 
 The data was collected by Fang Jin. Pleas see:
 
-> __A new protocol for multiple muscle mapping using nTMS__
-> 
-> Fang Jin, Sjoerd Bruijn, Andreas Daffertshofer
-> 
+> __A new protocol for multiple muscle mapping using nTMS__  
+> Fang Jin, Sjoerd Bruijn, Andreas Daffertshofer  
 > bioRxiv 2021.07.29.454279; doi: <https://doi.org/10.1101/2021.07.29.45427>
-
-***
 
 ## How to run
 
