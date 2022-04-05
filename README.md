@@ -2,7 +2,7 @@
 
 This repository contains all the data and code underlying my research master project at Vrije University Amsterdam.
 
-The data was collected by Fang Jin. Pleas see:
+The data was collected by Fang Jin. Please see:
 
 > __A new protocol for multiple muscle mapping using nTMS__  
 > Fang Jin, Sjoerd Bruijn, Andreas Daffertshofer  
