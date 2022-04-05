@@ -14,7 +14,7 @@ Fork/clone the repository, then simply run R scripts `plots.R` and `stats.R` to 
 
 ### data
 
-There is one csv file per subject. Each row corresponds to a new TMS pulse. Columns 1-8 hold the binary responses for each muscle. Column 9 identifies the stimulation protocol (i.e. which muscle's RMT was used to set the stimulation intensity).
+There is one csv file per subject. First row are the columns names, each subsequent row corresponds to a new TMS pulse. Columns 1-8 hold the binary responses for each muscle. Column 9 identifies the stimulation protocol (i.e. which muscle's RMT was used to set the stimulation intensity).
 
 ### R
 
