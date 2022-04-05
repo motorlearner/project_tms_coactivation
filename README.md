@@ -31,29 +31,26 @@ There are six R scripts.
 
 This is where the plots are saved. 
 
-***
-
 ## Session Info
 
-`
-R version 4.1.2 (2021-11-01)
-Platform: x86_64-w64-mingw32/x64 (64-bit)
-Running under: Windows 10 x64 (build 19042)
+R version 4.1.2 (2021-11-01)  
+Platform: x86_64-w64-mingw32/x64 (64-bit)  
+Running under: Windows 10 x64 (build 19042)  
 
-Matrix products: default
+Matrix products: default  
 
-locale:
-[1] LC_COLLATE=English_United Kingdom.1252  LC_CTYPE=English_United Kingdom.1252    LC_MONETARY=English_United Kingdom.1252
+locale:  
+[1] LC_COLLATE=English_United Kingdom.1252  LC_CTYPE=English_United Kingdom.1252    LC_MONETARY=English_United Kingdom.1252  
 [4] LC_NUMERIC=C                            LC_TIME=English_United Kingdom.1252    
 
-attached base packages:
+attached base packages:  
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
-other attached packages:
+other attached packages:  
  [1] rcompanion_2.4.13 PMCMRplus_1.9.3   rstatix_0.7.0     patchwork_1.1.1   ggridges_0.5.3    forcats_0.5.1     stringr_1.4.0     dplyr_1.0.7      
  [9] purrr_0.3.4       readr_2.1.1       tidyr_1.1.4       tibble_3.1.6      ggplot2_3.3.5     tidyverse_1.3.1   here_1.0.1       
 
-loaded via a namespace (and not attached):
+loaded via a namespace (and not attached):  
  [1] matrixStats_0.61.0   fs_1.5.2             lubridate_1.8.0      httr_1.4.2           rprojroot_2.0.2      tools_4.1.2         
  [7] backports_1.4.1      utf8_1.2.2           R6_2.5.1             nortest_1.0-4        DBI_1.1.2            colorspace_2.0-2    
 [13] ggdist_3.1.1         withr_2.4.3          tidyselect_1.1.2     Exact_3.1            compiler_4.1.2       cli_3.1.1           
@@ -70,4 +67,3 @@ loaded via a namespace (and not attached):
 [79] assertthat_0.2.1     cachem_1.0.6         coin_1.4-2           libcoin_1.0-9        broom_0.7.12         Rmpfr_0.8-7         
 [85] e1071_1.7-9          class_7.3-19         survival_3.2-13      memoise_2.0.1        gmp_0.6-4            TH.data_1.1-0       
 [91] ellipsis_0.3.2
-`
