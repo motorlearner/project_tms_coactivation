@@ -1,1 +1,2 @@
-# project_tms_coactivation
+# Assessing muscle co-activation dynamics by counting motor-evoked potentials
+
