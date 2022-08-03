@@ -24,7 +24,8 @@ df <- expand_grid(
   py  = p,
   r   = r,
   jac = NA,
-  pmi = NA
+  pmi = NA,
+  dsc = NA
 ) %>% 
   # constrain parameter space with probability axioms
   rowwise() %>% 
@@ -43,7 +44,7 @@ for (i in 1:nrow(df)){
   if(pyifx0 < 0 & pyifx0 > -0.000000001){pyifx0 = 0}
   if(pyifx0 > 1 & pyifx0 <  1.000000001){pyifx0 = 1}
   # initialize containers to store outcomes from each rep
-  pmi = jac <- vector(length = nreps)
+  pmi = jac = dsc <- vector(length = nreps)
   # carry out reps
   for(j in 1:nreps){
     # get x
@@ -62,10 +63,12 @@ for (i in 1:nrow(df)){
     # get outcomes
     jac[j] <- 1 / (((fx+fy)/fxy)-1)
     pmi[j] <- log2(fxy/(fx*fy))
+    dsc[j] <- 2*fxy/(fx+fy)
   }
   # fill in means outcomes across all reps
   df$jac[i] <- mean(jac)
   df$pmi[i] <- mean(pmi)
+  df$dsc[i] <- mean(dsc)
   # print progress report
   percent <- round(i /nrow(df) * 100, 0)
   howmany <- percent %/% 5
@@ -145,4 +148,3 @@ p2 %>% ggsave(filename = "sim_pmi.png",
               height   = 250,
               units    = "mm",
               scale    = .26)
-
