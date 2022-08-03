@@ -4,9 +4,10 @@ This repository contains all the data and code underlying my research master pro
 
 The data was collected and provided by Fang Jin. Please see:
 
-> __A new protocol for multiple muscle mapping using nTMS__  
-> Fang Jin, Sjoerd Bruijn, Andreas Daffertshofer  
-> bioRxiv 2021.07.29.454279; doi: <https://doi.org/10.1101/2021.07.29.454279>
+> __Accounting for Stimulations That Do Not Elicit Motor-Evoked Potentials When Mapping Cortical Representations of Multiple Muscles__  
+> Fang Jin, Sjoerd Bruijn, Andreas Daffertshofer
+> Front. Hum. Neurosci., 24 June 2022
+> https://doi.org/10.3389/fnhum.2022.920538
 
 ## How to run
 
