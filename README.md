@@ -11,7 +11,7 @@ The data was collected and provided by Fang Jin. Please see:
 
 ## How to Run
 
-Download the repository, then simply run the appropriate R scripts (described below). The scripts rely on certain R packages, which are called at the beginning of the script via `library(packagename)`. If you haven't already, you will need to install these packages via `install.packages("packagename")`.
+Download the repository, then simply run the appropriate R scripts (described below). The scripts rely on certain R packages, which are called at the beginning of the script via `library(packagename)` or `require(packagename)`. If you haven't already, you will need to install these packages via `install.packages("packagename")`.
 
 ## Content
 
