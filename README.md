@@ -85,7 +85,7 @@ Below is a brief description of the relevant scripts. Note that there may be add
 </table>
 
 ## Session Info
-`
+```
 R version 4.1.2 (2021-11-01)  
 Platform: x86_64-w64-mingw32/x64 (64-bit)  
 Running under: Windows 10 x64 (build 19042)  
@@ -120,4 +120,4 @@ loaded via a namespace (and not attached):
 [79] assertthat_0.2.1     cachem_1.0.6         coin_1.4-2           libcoin_1.0-9        broom_0.7.12         Rmpfr_0.8-7         
 [85] e1071_1.7-9          class_7.3-19         survival_3.2-13      memoise_2.0.1        gmp_0.6-4            TH.data_1.1-0       
 [91] ellipsis_0.3.2
-`
+```
