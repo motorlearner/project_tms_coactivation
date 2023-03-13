@@ -23,7 +23,7 @@ There is one csv file per subject. The first row hold the column names, each sub
 
 ### The Scripts
 
-Below is a brief description of the relevant scripts. Note that there may be additional scripts that are not listed below, as I am currently working on a Bayesian approach to the problem, using `Rstan`.
+Below is a brief description of the relevant scripts. Note that there may be additional scripts that are not listed below, as I was (tbc soon) working on a Bayesian approach to the problem using `Rstan`, because it makes quantifying uncertainty much easier in this case. 
 
 <table>
     <tr>
